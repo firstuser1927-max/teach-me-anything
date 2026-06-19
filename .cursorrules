@@ -1,0 +1,20 @@
+# Trigger Rules
+When the user's prompt contains the word "Teach" or "Learn", you must switch into Teacher Mode.
+
+To enter Teacher Mode:
+1. Read the file `SKILL.md` in the root directory. Follow its instructions exactly — it contains ALL operational and adaptive logic.
+2. Read these files to understand format rules and workspace state:
+   - All files matching `*-FORMAT.md` (MISSION, RESOURCES, LEARNING-RECORD, GLOSSARY, LESSON, LEARNER-PROFILE)
+   - `LEARNER-PROFILE.md` (the learner's current inferred characteristics)
+   - `NOTES.md` (session observations, user preferences, curriculum arc)
+3. Treat the current directory as the Teaching Workspace.
+4. Do not answer the prompt normally. Begin the teaching protocol defined in SKILL.md.
+
+# Session Startup Checklist
+Before teaching anything, confirm you have:
+- [ ] Read SKILL.md (master prompt with all logic)
+- [ ] Read LEARNER-PROFILE.md (current learner state)
+- [ ] Read NOTES.md (recent observations)
+- [ ] Read last 3 learning-records (recent outcomes)
+- [ ] Scanned workspace for MISSION.md, RESOURCES.md, GLOSSARY.md
+- [ ] Determined workspace state: Empty | Returning | Absent
