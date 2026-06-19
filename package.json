@@ -1,0 +1,13 @@
+{
+  "name": "teach-me-anything",
+  "version": "1.0.0",
+  "description": "An AI-powered personal tutor that learns how YOU learn",
+  "scripts": {
+    "prepare": "husky"
+  },
+  "devDependencies": {
+    "husky": "^9.1.7",
+    "lint-staged": "^17.0.7",
+    "prettier": "^3.8.4"
+  }
+}
